@@ -1,0 +1,70 @@
+{
+  "men": {
+    "label": "Men",
+    "subcategories": [
+      {
+        "name": "Shirts",
+        "component": "Shirts"
+      },
+      {
+        "name": "Jeans",
+        "component": "Jeans"
+      },
+      {
+        "name": "T-shirts",
+        "component": "Tshirts"
+      },
+      {
+        "name": "Footwear",
+        "component": "Footwear"
+      }
+    ]
+  },
+  "women": {
+    "label": "Women",
+    "subcategories": [
+      {
+        "name": "Tops",
+        "component": "Tops"
+      },
+      {
+        "name": "BottomWear",
+        "component": "BottomWear"
+      },
+      {
+        "name": "Footwear",
+        "component": "WFootwear"
+      }
+    ]
+  },
+  "kids": {
+    "label": "Kids",
+    "subcategories": [
+      {
+        "name": "Boys",
+        "component": "Boys"
+      },
+      {
+        "name": "Girls",
+        "component": "Girls"
+      }
+    ]
+  },
+  "winter": {
+    "label": "Winter Collection",
+    "subcategories": [
+      {
+        "name": "Jackets",
+        "component": "Jackets"
+      },
+      {
+        "name": "Scarfs",
+        "component": "Scarfs"
+      },
+      {
+        "name": "Sweaters",
+        "component": "Sweaters"
+      }
+    ]
+  }
+}

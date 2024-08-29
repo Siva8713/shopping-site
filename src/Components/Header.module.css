@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  gap: 30%;
+  padding: 20px;
+  background-color: #bdbbbb;
+  align-items: center;
+}
+
+.navButtons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.userSection {
+  position: relative;
+}
+
+.userName {
+  cursor: pointer;
+}
+
+.cartOverlay,
+.profileOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartContainer,
+.profileContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  width: 400px;
+  max-width: 90%;
+}
+
+.backButton {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.userInfo {
+  padding: 10px;
+}
